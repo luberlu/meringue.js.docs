@@ -1,0 +1,32 @@
+site_name: Meringue.js
+theme:
+  name: 'material'
+  logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github   # Icône pour le lien GitHub
+    logo: material/clock-fast         # Icône principale de la page
+
+  palette:
+    primary: black
+
+nav:
+  - Home: index.md
+  - Docs: docs/index.md
+
+extra_css:
+  - style.css
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/solid/book    # Icône pour la documentation
+      link: /docs/
+    - icon: fontawesome/brands/github # Icône pour GitHub
+      link: https://github.com/tonrepo
