@@ -1,0 +1,37 @@
+[dir=ltr] .md-header__title {
+    margin-left: 0.1rem;
+}
+
+.grid.cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+.grid.cards > div {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Masquer la barre latérale gauche (navigation) sur la page d'accueil */
+body.homepage .md-sidebar--primary {
+  display: none;
+}
+
+/* Ajuster la largeur du contenu principal lorsqu'il n'y a pas de barre latérale gauche */
+body.homepage .md-main {
+  margin-left: 0;
+}
+
+/* Masquer la table des matières à droite sur la page d'accueil */
+body.homepage .md-sidebar--secondary {
+  display: none;
+}
+
+/* Ajuster la largeur du contenu pour occuper toute la page */
+body.homepage .md-content {
+  max-width: 100%;
+}
